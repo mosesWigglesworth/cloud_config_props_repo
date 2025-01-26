@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: eureka-server-ms
-server: port:32678
 eureka:
   client:
     #register-with-eureka=false - Every Ms Project should kept ready to register with Eureka Server. 
