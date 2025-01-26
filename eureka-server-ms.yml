@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: eureka-server-ms
 server: port:32678
 eureka:
   client:
