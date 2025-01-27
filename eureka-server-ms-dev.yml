@@ -14,11 +14,11 @@ management:
     web:
       exposure:
         include: '*'
-# logger:
-#   name: eureka-server-log
-#   path: D://Java - MS - Dev End - End//00.Log//${logger.name}.log
-# logging:
-#   config: classpath:logback.xml
+logger:
+  name: eureka-server-log
+  path: D://Java - MS - Dev End - End//00.Log//${logger.name}.log
+logging:
+  config: classpath:logback.xml
 
 server:
   port: 32770
