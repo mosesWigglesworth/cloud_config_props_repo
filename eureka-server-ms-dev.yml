@@ -1,8 +1,5 @@
-# Spring Application Name
+# Spring Admin Server Details
 spring:
-  application:
-    name: eureka-server-ms
-  # Admin Server Details
   boot:
     admin:
       client: url:http://localhost:32768
