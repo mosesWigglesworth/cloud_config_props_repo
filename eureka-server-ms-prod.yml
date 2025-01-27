@@ -8,3 +8,14 @@ eureka:
     # Since Eureka Server Project can not kept ready for fetching/discovery ,
     # Hence we need make the default "true" inhreited from the spring cloud project for "eureka.client.fetch-registry" as "false" in Eureka server Project
     register-with-eureka=false fetch-registry=false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logger:
+  name: eureka-server-log
+  path: D://Java - MS - Dev End - End//00.Log//${logger.name}.log
+logging:
+  config: classpath:logback.xml
