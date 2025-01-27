@@ -2,7 +2,8 @@
 spring:
   boot:
     admin:
-      client: url:http://localhost:32768
+      client:
+        url: http://localhost:32768
 
 # Server Port No
 server:
