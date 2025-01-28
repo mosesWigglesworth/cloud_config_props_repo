@@ -5,10 +5,6 @@ spring:
       client:
         url: http://localhost:32768
 
-  messages:
-    basename: src/main/resources
-    encoding: UTF-8
-
 # Server Port No
 server:
   port: 32771
@@ -32,11 +28,14 @@ eureka:
     #register-with-eureka=false - Every Ms Project should kept ready to register with Eureka Server. 
     #Since we can not register Eureke server Project itself with Eureka server , 
     #So we need to make the default value "true" Inherited from the spring cloud project for "eureka.client.register-with-eureka" property as "false" in Eureka server Project.
-
+    register-with-eureka: true
     # fetch-registry=false - Every MS project should be kept ready for discovery/fetching for communincation while registering with Eureka server.
     # Since Eureka Server Project can not kept ready for fetching/discovery ,
     # Hence we need make the default "true" inhreited from the spring cloud project for "eureka.client.fetch-registry" as "false" in Eureka server Project
-    register-with-eureka=true fetch-registry=true
+    fetch-registry: true
+
+    service-url:
+      defaultZone: http://localhost:32770/eureka
 
 drools:
   # Group ID of In-Memory Drools Jar
@@ -60,3 +59,7 @@ drools:
     schema:
       path: D://Java - MS - Dev End - End//04.Drools-Json-Schema-Path
       name: request-json-schema.json
+
+messages:
+  basename: src/main/resources
+  encoding: UTF-8
