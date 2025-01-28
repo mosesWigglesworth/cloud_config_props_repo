@@ -5,6 +5,10 @@ spring:
       client:
         url: http://localhost:32768
 
+  messages:
+    basename: src/main/resources
+    encoding: UTF-8
+
 # Server Port No
 server:
   port: 32771
