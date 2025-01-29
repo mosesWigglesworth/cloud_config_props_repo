@@ -61,5 +61,5 @@ drools:
       name: request-json-schema.json
 
 messages:
-  basename: classpath:messages
+  basename: classpath:i18n/messages
   encoding: UTF-8
