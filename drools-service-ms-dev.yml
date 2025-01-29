@@ -48,7 +48,7 @@ drools:
   # Rule Set Details
   ruleset:
     template:
-      path: D:\Java - MS - Dev End - End\00.Drools-File-Path
+      path: D:\Java - MS - Dev End - End\04.Drools-File-Path
       backup:
         path: D://Java - MS - Dev End - End//04.Drools-File-Backup-Path
       name: ruleset.xlsx
