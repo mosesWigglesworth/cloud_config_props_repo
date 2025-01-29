@@ -59,7 +59,3 @@ drools:
     schema:
       path: D://Java - MS - Dev End - End//04.Drools-Json-Schema-Path
       name: request-json-schema.json
-
-messages:
-  basename: classpath:i18n/messages
-  encoding: UTF-8
