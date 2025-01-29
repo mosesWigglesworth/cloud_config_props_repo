@@ -48,7 +48,7 @@ drools:
   # Rule Set Details
   ruleset:
     template:
-      path: D://Java - MS - Dev End - End//00.Drools-File-Path
+      path: D:\Java - MS - Dev End - End\00.Drools-File-Path
       backup:
         path: D://Java - MS - Dev End - End//04.Drools-File-Backup-Path
       name: ruleset.xlsx
@@ -57,5 +57,5 @@ drools:
   # Drools Json Schema Path
   json:
     schema:
-      path: D://Java - MS - Dev End - End//04.Drools-Json-Schema-Path
+      path: D:\Java - MS - Dev End - End\04.Drools-Json-Schema-Path
       name: request-json-schema.json
