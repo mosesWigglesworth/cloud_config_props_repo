@@ -8,7 +8,8 @@ spring:
 # Server Port No
 server:
   port: 32771
-
+  servlet:
+    context-path: /drools-ms
 # Spring Actuator End Points
 management:
   endpoints:
